@@ -1,8 +1,8 @@
-const express = require('express')
+const express = require("express");
 
-const app = express()
+const app = express();
 
-app.use(express.static('./static'))
+app.use(express.static("./static"));
 
-app.listen(4000)
-console.log(`server on port ${4000}`)
+app.listen(4000);
+console.log(`server on port ${4000}`);
